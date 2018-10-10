@@ -16,6 +16,11 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+main {
+    max-width: 980px;
+    margin: auto;
+}
+
 .logo {
     background: #000;
     width: 100%;
@@ -48,6 +53,7 @@ nav {
     padding: 7px 16px;
     font-size: 20px;
 }
+
 .topnav a {
     color: black;
     margin-left: 3%;
@@ -61,7 +67,7 @@ nav {
     display: none;
 }
 
- img.mw-100  {
+img.mw-100 {
     width: 100%;
     height: auto;
 }
@@ -120,6 +126,36 @@ footer nav :hover {
     border-radius: 50%;
 }
 
+.blog-tags {
+    color: blue;
+    text-align: center;
+}
+
+.header {
+    text-align: center;
+}
+h1 {
+    
+    margin-bottom: 20px;
+}
+.blog-text {
+       margin: 20px;
+    float: left;
+
+}
+}
+.blog-conteiner {
+
+    border-radius: 5px;
+    font-weight: 100;
+    margin: 10px auto;
+    width: 50rem;
+}
+
+a {
+    color: black;
+}
+
 @media screen and (max-width: 768px) {
     .topnav a:not(:first-child) {
         display: none;
@@ -163,13 +199,51 @@ footer nav :hover {
 }
 
 .flex-caption {
-  width: 96%;
-  padding: 2%;
-  left: 0;
-  bottom: 0;
-  background: rgba(0,0,0,.5);
-  color: #fff;
-  text-shadow: 0 -1px 0 rgba(0,0,0,.3);
-  font-size: 14px;
-  line-height: 18px;
+    width: 96%;
+    padding: 2%;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .5);
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.container {
+    margin: auto;
+    max-width: 1200px;
+    margin-bottom: 10px
+}
+
+.responsive-image {
+    max-width: 98%;
+}
+
+.cell img {
+    display: block;
+}
+
+
+@media screen and (min-width: 600px) {
+    .grid {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .cell {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .cell {
+        width: calc(100% / 3);
+    }
+}
+
+.grow:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
 }

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>NWphotos</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/contact.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img class="graficlogo" src="img/logo.jpg" alt="NWphotos"></a>
+        </div>
+        <nav>
+            <div class="topnav" id="myTopnav">
+                <a href="index.html">HOME</a>
+                <a href="photos.html">PHOTOS</a>
+                <a href="blog.html">BLOG</a>
+                <a href="contacts.html">CONTACT</a>
+
+                <a id="menu" href="#" class="icon">&#9776;</a>
+            </div>
+        </nav>
+    </header>
+        <div class="wrapper">
+            <section class="header">
+                <h1>Contact Us</h1>
+            </section>
+            <main>
+                <form method = "post" action="scripts/email.php">
+                    <div class="input-group">
+                        <label for="name">Name</label>
+                        <input type="text" id='name' name='name' tab-index='1' />
+                    </div>
+                    <div class="input-group">
+                        <label for="email">Email</label>
+                        <input type="text" id='email' name='email' tab-index='2' />
+                    </div>
+                    <div class="input-group">
+                        <label for="address">Address</label>
+                        <input type="text" id='address' name='adress' tab-index='3' />
+                    </div>
+                    <div class="input-group">
+                        <label for="message">Message</label>
+                        <textarea id='message' name='message' tab-index='4'></textarea>
+                    </div>
+                    <div class="input-group">
+                        <input type="submit" value="send" tab-index='5' />
+                    </div>
+                </form>
+            </main>
+            <aside>
+                <div class='content'>
+                    <div class="subscribed">
+                        <p><strong>Thank You!</strong> for signing up for our newsletter. Your email subscription can be cancelled at any time by going to unsubscribme@co.com </p>
+                    </div>
+
+                </div>
+            </aside>
+        </div>
+    <footer>
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="projects.html">PHOTOS</a>
+            <a href="blog.html">BLOG</a>
+            <a href="contact.html">CONTACT</a>
+
+        </nav>
+        <div class="logo">
+            <a href=""><img class="graficlogo" src="img/logo.jpg" alt=""></a>
+        </div>
+        <div class="social">
+            <a href="mailto:kondra.arthur98@gmail.com"><img src="img/1.PNG" alt="Mail"></a>
+            <a href="https://www.facebook.com/arthur.kondra.7"><img src="img/2.PNG" alt="Facebook"></a>
+            <a href="https://www.instagram.com/norwinscuu/?hl=ru"><img src="img/4.PNG" alt="Instagram"></a>
+        </div>
+        <p>NWPHOTOS Blog. 2018</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
