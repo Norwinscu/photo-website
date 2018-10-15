@@ -97,3 +97,38 @@
   from {opacity: .4} 
   to {opacity: 1}
 }
+
+.text-top {
+  color: black;
+  font-size: 28px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  text-align: center;
+  font-family: inherit;
+}
+
+.text-left {
+  color: white;
+  font-size: 28px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  width: 100%;
+  text-align: left;
+  font-family: inherit;
+}
+
+.text-right {
+  color: white;
+  font-size: 28px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 20%;
+  left: 20%;
+  width: 100%;
+  text-align: center;
+  font-family: inherit;
+}

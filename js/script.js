@@ -9,8 +9,8 @@ menu.onclick = function myFunction() {
 }
 
 function zoom(element) {
-    var newTab = window.open();
-    var data = document.getElementById("choicedPhoto").getAttribute("src");
+    let newTab = window.open();
+    let data = document.getElementById("choicedPhoto").getAttribute("src");
     setTimeout(function() {
         newTab.document.body.innerHTML = "<img src='" + data + "'>";
     }, 500);
